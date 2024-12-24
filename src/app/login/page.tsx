@@ -6,7 +6,7 @@ export default function SignIn() {
       <div className="w-[90%] max-w-[380px] h-auto bg-[#FFFFFF] px-6">
         <div className="text-center mb-6">
           <img
-            src="Nike.png" 
+            src="NIKE.png" 
             alt="Nike Logo"
             className="mx-auto w-15 h-8"
           />

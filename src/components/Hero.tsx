@@ -75,7 +75,7 @@ export default function Hero() {
    <div className='flex justify-center px-10'>
     <Image
     className=''
-    src={'/Run.png'}
+    src={'/run.png'}
     alt='shoes banner'
     width={1200}
     height={600}
@@ -104,7 +104,7 @@ export default function Hero() {
             <div className="container p-10">
   <p className="text-xl font-semibold px-10 lg:px-6 uppercase text-start mb-8">Gear Up</p>
   <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 lg:gap-8">
-    <div className="font-sm text-slate-600 text-center">
+    <div className="font-sm  text-slate-600 text-center">
       <Image src={"/g1.png"} alt={"shirt"} width={300} height={200} />
       <p className="mt-2">Nike Dri-FIT ADV TechKnit Ultra</p>
       <p className="text-sm">Men's Short Sleeve</p>
@@ -163,31 +163,32 @@ export default function Hero() {
             <div className='mt-28 mb-0'>
         <span className='text-xl font-semibold px-10 lg:px-16'>The Essentials</span>
         </div>
-        <div className='flex justify-evenly items-center mb-16 md:mb-28 flex-wrap'>
-        <div className='w-96 h-[400px] overflow-hidden'>
+        <div className='flex justify-center items-center mb-16 md:mb-28 flex-wrap'>
+        
+        <div className='w-96 h-[400px] px-2 overflow-hidden'>
             <Image
             className='hover:scale-105 duration-300'
                src={'/l1.png'}
                alt=''
-               width={350}
-               height={550}/>
+               width={300}
+               height={200}/>
             </div>
-      <div className='w-96 h-[400px] overflow-hidden my-7 md:my0 '>
+      <div className='w-96 h-[400px] px-2 overflow-hidden my-7 md:my0 '>
             <Image
             className='hover:scale-105 duration-300'
                src={'/l2.png'}
                alt=''
-               width={350}
-               height={550}/>
+               width={300}
+               height={500}/>
             </div>
 
-<div className='w-96 h-[400px] overflow-hidden mb-14 md:mb-0'>
+<div className='w-96 h-[400px]  px-2 overflow-hidden mb-14 md:mb-0'>
             <Image
             className='hover:scale-105 duration-300'
                src={'/l3.png'}
                alt=''
-               width={350}
-               height={550}/>
+               width={300}
+               height={500}/>
             </div>
         </div>
         </div>
