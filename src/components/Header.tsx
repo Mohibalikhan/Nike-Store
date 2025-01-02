@@ -18,7 +18,7 @@ const Header = () => {
           
           <div className='flex items-center justify-end gap-4 text-[#0c0303] font-semibold'>
             <nav className="text-sm md:text-base">
-              <Link href={''}>Main page | </Link>
+              <Link href={'./store'}>Find a Store | </Link>
               <Link href={'./help'}>Help | </Link>
               <Link href={'./join'}>Join Us | </Link>
               <Link href={'/login'}>Sign In </Link>
@@ -36,7 +36,7 @@ const Header = () => {
 
           {/* Desktop Navigation Links */}
           <nav className="md:ml-auto md:mr-auto flex-wrap items-center text-base justify-center space-x-6 hidden md:flex font-bold">
-            <Link href={'/'} className="mr-2 hover:text-gray-900">New & Featured</Link>
+            <Link href={'/'} className="mr-2 hover:text-gray-900">Home</Link>
             <Link href={'./cart'} className="mr-5 hover:text-gray-900">Men</Link>
             <Link href={'/about'} className="mr-5 hover:text-gray-900">Women</Link>
             <Link href={'/kids'} className="mr-5 hover:text-gray-900">Kids</Link>
@@ -95,7 +95,7 @@ const Header = () => {
         {/* Mobile Navigation Links */}
         {menuOpen && (
           <nav className="md:hidden flex flex-col items-center bg-gray-50 p-4 space-y-4">
-            <Link href={"/"} className="hover:text-gray-900">New & Featured</Link>
+            <Link href={"/"} className="hover:text-gray-900">Home</Link>
             <Link href={"./cart"} className="hover:text-gray-900">Men</Link>
             <Link href={"/about"} className="hover:text-gray-900">Women</Link>
             <Link href={"/kids"} className="hover:text-gray-900">Kids</Link>
