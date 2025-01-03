@@ -6,14 +6,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-// The ProductDetail component expects 'params' with the 'id' string
-interface ProductDetailProps {
-  params: {
-    id: string;
-  };
-}
-
-export default function ProductDetail({ params }: ProductDetailProps) {
+export default function ProductDetail({ params }: { params: { id: string } }) {
   const { addItem } = useCart();
   const router = useRouter(); 
   const [product, setProduct] = useState<any>(null);
